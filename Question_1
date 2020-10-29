@@ -1,6 +1,0 @@
-  
-#A string is taken as an input,Print those characters which are present at an even index number.
-name=input()
-x=len(name)
-for n in range(0,x-1,2):
-    print((name)[n])
