@@ -1,6 +1,0 @@
-#A list of numbers is given, if last number and first number are same then return True, else False
-num=[10,20,30,40,30,20,10]
-if num[0]==num[-1]:
-    print('True')
-else:
-    print('False')
