@@ -1,0 +1,12 @@
+#Armstrong number
+n=input('Enter the number:')
+lst=[]
+for i in n:
+    int_num=int(i)
+    cube=(int_num*int_num*int_num)
+    lst.append(cube)
+ans=sum(lst)
+if ans==int(n):
+    print('It is a armstrong number')
+else:
+    print('It is not a armstrong number')
