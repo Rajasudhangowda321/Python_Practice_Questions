@@ -1,0 +1,5 @@
+#finding binary,octal,hexa
+n=int(input())
+print(bin(n))
+print(oct(n))
+print(hex(n))
