@@ -1,0 +1,6 @@
+#squaring and cubing
+n=int(input())
+square=n*n
+cube=n*n*n
+print(square,'is the square of',n)
+print(cube,'is the cube of',n)
