@@ -1,0 +1,7 @@
+#Fibonacci series
+n=int(input('Enter the number:'))
+lst=[0,1]
+for i in range(n):
+    sum=lst[0+i]+lst[1+i]
+    lst.append(sum)
+print(lst)
