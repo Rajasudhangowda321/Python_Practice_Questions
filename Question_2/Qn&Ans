@@ -1,0 +1,4 @@
+#Given a string and integer number n,remove characters from a string starting from zero up to n and print the new string. 
+name=input("Enter a string:")
+n=int(input("Enter a number:"))
+print(name[n+1:])
