@@ -1,4 +1,4 @@
-#Remove all characters other thandigits in a string
+#Remove all characters other than digits in a string
 import re
 str='Rajasudhan USN is 1DS19EC426'
 RE=re.findall('[0-9]',str)
