@@ -1,0 +1,5 @@
+#Remove all characters other thandigits in a string
+import re
+str='Rajasudhan USN is 1DS19EC426'
+RE=re.findall('[0-9]',str)
+print(RE)
