@@ -1,0 +1,16 @@
+def fn(str):
+    if str.isdigit():
+        if str==str[::-1]:
+            return "It is a palindrome"
+        else:
+            return "It is not a palindrome"
+    if str.isalpha():
+        if str==str[::-1]:
+            return "It is a palindrome"
+        else:
+            return "It is not a palindrome"
+    else:
+        return "Your input is wrong Enter either a number or a string"
+
+ip=fn(input("Enter a string:"))
+print(ip)
