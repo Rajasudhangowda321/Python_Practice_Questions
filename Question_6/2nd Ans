@@ -1,0 +1,11 @@
+str=input('Enter a string:')
+lst1=[]
+lst2=[]
+for i in str:
+    lst1.append(i)
+    lst2.append(i)
+lst2.reverse()
+if lst1==lst2:
+    print('It is a Palindrome')
+else:
+    print('It is not a Palindrome')
