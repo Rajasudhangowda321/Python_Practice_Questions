@@ -1,0 +1,9 @@
+#program to search some literals strings in a string.
+fhandle=open('text.txt','r')
+file=fhandle.read()
+conditions=['frame','clock','special','relativity','Sudhamshu','Rajasudhan']
+for i in conditions:
+    if i in file:
+        print('True')
+    else:
+        print('False')
