@@ -1,0 +1,5 @@
+#If the DOB format is yyyy-dd-mm then convert it to dd-mm-yyyy
+yyyy,dd,mm=input("Enter the Date in format yyyy-dd-mm:").split('-')
+s=dd,mm,yyyy
+ss='-'
+print(ss.join(s))
