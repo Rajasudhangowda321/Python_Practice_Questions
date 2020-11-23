@@ -1,0 +1,6 @@
+dict = {'Sudhamshu': '091', 'Akash': 0, 'Rajasudhan': None,'Vaishakh':'092','Naveen': None}
+new_dict = {}
+for key,value in dict.items():
+        if value != 0 and value is not None:
+            new_dict[key] = value
+print(new_dict)
