@@ -1,0 +1,15 @@
+vehicles=35
+tires=125
+cars=0
+rickshaws=0
+rickshaw_tires=3
+car_tires=4
+for i in range(35):
+    c=car_tires*i
+    for j in range(35):
+        r=rickshaw_tires*j
+        if c+r==tires and i+j==vehicles:
+            cars=i
+            rickshaws=j
+print('Total number of car are:',cars)
+print('Total number of rickshaws are:',rickshaws)
