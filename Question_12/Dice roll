@@ -1,5 +1,5 @@
 #write a program to create a dice game,which randomly generates number(1-6),while the number is even return an pattern of right angle triangle of stars with n=number_generated_through random generator.And while number is odd the create a inverted pattern of right angle triangle with n=number generated number_generated_through random generator.Ask for userinput for "Yes" or "No",while yes,repeat the process,else terminate.
-ask=input('Need to roll again enter yes else enter no:')
+ask=input('Need to roll dice enter yes else enter no:')
 import random
 dice=[1,2,3,4,5,6]
 p=random.choice(dice)
