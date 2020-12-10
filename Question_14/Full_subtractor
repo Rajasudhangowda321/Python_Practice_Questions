@@ -1,0 +1,29 @@
+def Xor_Gate(a,b):
+    if (a!=b):
+        return 1
+    return 0
+def And_Gate(a,b):
+    if (a==1 and b==1):
+        return 1
+    return 0
+def Or_Gate(a,b):
+    if (a==0 and b==0):
+        return 0
+    return 1
+def Not_Gate(a):
+    if a==0:
+        return 1
+    return 0
+a=int(input('a:'))
+b=int(input('b:'))
+cin=int(input('cin:'))
+
+Not1=Not_Gate(a)
+xor1=Xor_Gate(a,b)
+diff=Xor_Gate(xor1,cin)
+and1=And_Gate(Not1,b)
+Not2=Not_Gate(xor1)
+and2=And_Gate(Not2,cin)
+borrow=Or_Gate(and1,and2)
+print('Difference:',diff)
+print('borrow:',borrow)
