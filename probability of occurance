@@ -1,8 +1,0 @@
-#write a program which counts and prints the numbers of each character in a string input by console and finds the Probability of occurance.
-word=input('enter:')
-total=len(word)
-dict={}
-for i in word:
-    dict[i]=dict.get(i,0)+1
-for key,value in dict.items():
-    print(key,value,'with Probability:',(value/total))
